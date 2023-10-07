@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F99971472AD1B294004B8C33 /* LinearEquationsSolverApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99971462AD1B294004B8C33 /* LinearEquationsSolverApp.swift */; };
+		F99971492AD1B294004B8C33 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99971482AD1B294004B8C33 /* ContentView.swift */; };
+		F999714B2AD1B299004B8C33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F999714A2AD1B299004B8C33 /* Assets.xcassets */; };
+		F999714E2AD1B299004B8C33 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F999714D2AD1B299004B8C33 /* Preview Assets.xcassets */; };
+		F99971582AD1B299004B8C33 /* LinearEquationsSolverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99971572AD1B299004B8C33 /* LinearEquationsSolverTests.swift */; };
+		F99971622AD1B299004B8C33 /* LinearEquationsSolverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99971612AD1B299004B8C33 /* LinearEquationsSolverUITests.swift */; };
+		F99971642AD1B299004B8C33 /* LinearEquationsSolverUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99971632AD1B299004B8C33 /* LinearEquationsSolverUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F99971542AD1B299004B8C33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F999713B2AD1B294004B8C33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F99971422AD1B294004B8C33;
+			remoteInfo = LinearEquationsSolver;
+		};
+		F999715E2AD1B299004B8C33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F999713B2AD1B294004B8C33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F99971422AD1B294004B8C33;
+			remoteInfo = LinearEquationsSolver;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F99971432AD1B294004B8C33 /* LinearEquationsSolver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinearEquationsSolver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F99971462AD1B294004B8C33 /* LinearEquationsSolverApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearEquationsSolverApp.swift; sourceTree = "<group>"; };
+		F99971482AD1B294004B8C33 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F999714A2AD1B299004B8C33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F999714D2AD1B299004B8C33 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F99971532AD1B299004B8C33 /* LinearEquationsSolverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinearEquationsSolverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F99971572AD1B299004B8C33 /* LinearEquationsSolverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearEquationsSolverTests.swift; sourceTree = "<group>"; };
+		F999715D2AD1B299004B8C33 /* LinearEquationsSolverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinearEquationsSolverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F99971612AD1B299004B8C33 /* LinearEquationsSolverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearEquationsSolverUITests.swift; sourceTree = "<group>"; };
+		F99971632AD1B299004B8C33 /* LinearEquationsSolverUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearEquationsSolverUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F99971402AD1B294004B8C33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F99971502AD1B299004B8C33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F999715A2AD1B299004B8C33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F999713A2AD1B294004B8C33 = {
+			isa = PBXGroup;
+			children = (
+				F99971452AD1B294004B8C33 /* LinearEquationsSolver */,
+				F99971562AD1B299004B8C33 /* LinearEquationsSolverTests */,
+				F99971602AD1B299004B8C33 /* LinearEquationsSolverUITests */,
+				F99971442AD1B294004B8C33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F99971442AD1B294004B8C33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F99971432AD1B294004B8C33 /* LinearEquationsSolver.app */,
+				F99971532AD1B299004B8C33 /* LinearEquationsSolverTests.xctest */,
+				F999715D2AD1B299004B8C33 /* LinearEquationsSolverUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F99971452AD1B294004B8C33 /* LinearEquationsSolver */ = {
+			isa = PBXGroup;
+			children = (
+				F99971462AD1B294004B8C33 /* LinearEquationsSolverApp.swift */,
+				F99971482AD1B294004B8C33 /* ContentView.swift */,
+				F999714A2AD1B299004B8C33 /* Assets.xcassets */,
+				F999714C2AD1B299004B8C33 /* Preview Content */,
+			);
+			path = LinearEquationsSolver;
+			sourceTree = "<group>";
+		};
+		F999714C2AD1B299004B8C33 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F999714D2AD1B299004B8C33 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F99971562AD1B299004B8C33 /* LinearEquationsSolverTests */ = {
+			isa = PBXGroup;
+			children = (
+				F99971572AD1B299004B8C33 /* LinearEquationsSolverTests.swift */,
+			);
+			path = LinearEquationsSolverTests;
+			sourceTree = "<group>";
+		};
+		F99971602AD1B299004B8C33 /* LinearEquationsSolverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F99971612AD1B299004B8C33 /* LinearEquationsSolverUITests.swift */,
+				F99971632AD1B299004B8C33 /* LinearEquationsSolverUITestsLaunchTests.swift */,
+			);
+			path = LinearEquationsSolverUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F99971422AD1B294004B8C33 /* LinearEquationsSolver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F99971672AD1B29A004B8C33 /* Build configuration list for PBXNativeTarget "LinearEquationsSolver" */;
+			buildPhases = (
+				F999713F2AD1B294004B8C33 /* Sources */,
+				F99971402AD1B294004B8C33 /* Frameworks */,
+				F99971412AD1B294004B8C33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LinearEquationsSolver;
+			productName = LinearEquationsSolver;
+			productReference = F99971432AD1B294004B8C33 /* LinearEquationsSolver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F99971522AD1B299004B8C33 /* LinearEquationsSolverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F999716A2AD1B29A004B8C33 /* Build configuration list for PBXNativeTarget "LinearEquationsSolverTests" */;
+			buildPhases = (
+				F999714F2AD1B299004B8C33 /* Sources */,
+				F99971502AD1B299004B8C33 /* Frameworks */,
+				F99971512AD1B299004B8C33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F99971552AD1B299004B8C33 /* PBXTargetDependency */,
+			);
+			name = LinearEquationsSolverTests;
+			productName = LinearEquationsSolverTests;
+			productReference = F99971532AD1B299004B8C33 /* LinearEquationsSolverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F999715C2AD1B299004B8C33 /* LinearEquationsSolverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F999716D2AD1B29A004B8C33 /* Build configuration list for PBXNativeTarget "LinearEquationsSolverUITests" */;
+			buildPhases = (
+				F99971592AD1B299004B8C33 /* Sources */,
+				F999715A2AD1B299004B8C33 /* Frameworks */,
+				F999715B2AD1B299004B8C33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F999715F2AD1B299004B8C33 /* PBXTargetDependency */,
+			);
+			name = LinearEquationsSolverUITests;
+			productName = LinearEquationsSolverUITests;
+			productReference = F999715D2AD1B299004B8C33 /* LinearEquationsSolverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F999713B2AD1B294004B8C33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					F99971422AD1B294004B8C33 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					F99971522AD1B299004B8C33 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = F99971422AD1B294004B8C33;
+					};
+					F999715C2AD1B299004B8C33 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = F99971422AD1B294004B8C33;
+					};
+				};
+			};
+			buildConfigurationList = F999713E2AD1B294004B8C33 /* Build configuration list for PBXProject "LinearEquationsSolver" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F999713A2AD1B294004B8C33;
+			productRefGroup = F99971442AD1B294004B8C33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F99971422AD1B294004B8C33 /* LinearEquationsSolver */,
+				F99971522AD1B299004B8C33 /* LinearEquationsSolverTests */,
+				F999715C2AD1B299004B8C33 /* LinearEquationsSolverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F99971412AD1B294004B8C33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F999714E2AD1B299004B8C33 /* Preview Assets.xcassets in Resources */,
+				F999714B2AD1B299004B8C33 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F99971512AD1B299004B8C33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F999715B2AD1B299004B8C33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F999713F2AD1B294004B8C33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F99971492AD1B294004B8C33 /* ContentView.swift in Sources */,
+				F99971472AD1B294004B8C33 /* LinearEquationsSolverApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F999714F2AD1B299004B8C33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F99971582AD1B299004B8C33 /* LinearEquationsSolverTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F99971592AD1B299004B8C33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F99971642AD1B299004B8C33 /* LinearEquationsSolverUITestsLaunchTests.swift in Sources */,
+				F99971622AD1B299004B8C33 /* LinearEquationsSolverUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F99971552AD1B299004B8C33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F99971422AD1B294004B8C33 /* LinearEquationsSolver */;
+			targetProxy = F99971542AD1B299004B8C33 /* PBXContainerItemProxy */;
+		};
+		F999715F2AD1B299004B8C33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F99971422AD1B294004B8C33 /* LinearEquationsSolver */;
+			targetProxy = F999715E2AD1B299004B8C33 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F99971652AD1B29A004B8C33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F99971662AD1B29A004B8C33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F99971682AD1B29A004B8C33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LinearEquationsSolver/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = personal.LinearEquationsSolver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F99971692AD1B29A004B8C33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LinearEquationsSolver/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = personal.LinearEquationsSolver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F999716B2AD1B29A004B8C33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = personal.LinearEquationsSolverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LinearEquationsSolver.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LinearEquationsSolver";
+			};
+			name = Debug;
+		};
+		F999716C2AD1B29A004B8C33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = personal.LinearEquationsSolverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LinearEquationsSolver.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LinearEquationsSolver";
+			};
+			name = Release;
+		};
+		F999716E2AD1B29A004B8C33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = personal.LinearEquationsSolverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LinearEquationsSolver;
+			};
+			name = Debug;
+		};
+		F999716F2AD1B29A004B8C33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = personal.LinearEquationsSolverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LinearEquationsSolver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F999713E2AD1B294004B8C33 /* Build configuration list for PBXProject "LinearEquationsSolver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F99971652AD1B29A004B8C33 /* Debug */,
+				F99971662AD1B29A004B8C33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F99971672AD1B29A004B8C33 /* Build configuration list for PBXNativeTarget "LinearEquationsSolver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F99971682AD1B29A004B8C33 /* Debug */,
+				F99971692AD1B29A004B8C33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F999716A2AD1B29A004B8C33 /* Build configuration list for PBXNativeTarget "LinearEquationsSolverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F999716B2AD1B29A004B8C33 /* Debug */,
+				F999716C2AD1B29A004B8C33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F999716D2AD1B29A004B8C33 /* Build configuration list for PBXNativeTarget "LinearEquationsSolverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F999716E2AD1B29A004B8C33 /* Debug */,
+				F999716F2AD1B29A004B8C33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F999713B2AD1B294004B8C33 /* Project object */;
+}

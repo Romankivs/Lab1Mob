@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "E825824F-B02B-42F2-BC5A-AC4E18B6D7B8"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ACA7E8C5-ACBE-453C-ACB7-2EBC84B721F7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LinearEquationsSolver/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "169"
+            endingLineNumber = "169"
+            landmarkName = "solutionToText(_:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "ACA7E8C5-ACBE-453C-ACB7-2EBC84B721F7 - 2e9467737f17296e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LinearEquationsSolver.solutionToText(Swift.Optional&lt;Swift.Array&lt;Swift.Double&gt;&gt;) -&gt; Swift.String"
+                  moduleName = "LinearEquationsSolver"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sviatoslavromankiv/LinearEquationsSolver/LinearEquationsSolver/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "169"
+                  endingLineNumber = "169"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  uuid = "ACA7E8C5-ACBE-453C-ACB7-2EBC84B721F7 - 2e9467737f17296e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LinearEquationsSolver.solutionToText(Swift.Optional&lt;Swift.Array&lt;Swift.Double&gt;&gt;) -&gt; Swift.String"
+                  moduleName = "LinearEquationsSolver"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sviatoslavromankiv/LinearEquationsSolver/LinearEquationsSolver/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "169"
+                  endingLineNumber = "169"
+                  offsetFromSymbolStart = "144">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B2890E9A-AE7E-4380-878A-3D58C5F43271"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LinearEquationsSolver/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "176"
+            endingLineNumber = "176"
+            landmarkName = "solutionToText(_:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "30C4D35E-ADA8-42D2-9F4E-75804D833F77"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LinearEquationsSolver/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "171"
+            endingLineNumber = "171"
+            landmarkName = "solutionToText(_:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "30C4D35E-ADA8-42D2-9F4E-75804D833F77 - 2e9467737f1729d0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LinearEquationsSolver.solutionToText(Swift.Optional&lt;Swift.Array&lt;Swift.Double&gt;&gt;) -&gt; Swift.String"
+                  moduleName = "LinearEquationsSolver"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sviatoslavromankiv/LinearEquationsSolver/LinearEquationsSolver/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "171"
+                  endingLineNumber = "171"
+                  offsetFromSymbolStart = "196">
+               </Location>
+               <Location
+                  uuid = "30C4D35E-ADA8-42D2-9F4E-75804D833F77 - 2e9467737f1729d0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LinearEquationsSolver.solutionToText(Swift.Optional&lt;Swift.Array&lt;Swift.Double&gt;&gt;) -&gt; Swift.String"
+                  moduleName = "LinearEquationsSolver"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sviatoslavromankiv/LinearEquationsSolver/LinearEquationsSolver/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "171"
+                  endingLineNumber = "171"
+                  offsetFromSymbolStart = "364">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8914BEC8-2C1D-4136-A1B1-05FB6CE88F74"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LinearEquationsSolver/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "170"
+            endingLineNumber = "170"
+            landmarkName = "solutionToText(_:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

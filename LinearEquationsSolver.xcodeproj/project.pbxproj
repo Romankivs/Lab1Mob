@@ -14,6 +14,10 @@
 		F99971582AD1B299004B8C33 /* LinearEquationsSolverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99971572AD1B299004B8C33 /* LinearEquationsSolverTests.swift */; };
 		F99971622AD1B299004B8C33 /* LinearEquationsSolverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99971612AD1B299004B8C33 /* LinearEquationsSolverUITests.swift */; };
 		F99971642AD1B299004B8C33 /* LinearEquationsSolverUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99971632AD1B299004B8C33 /* LinearEquationsSolverUITestsLaunchTests.swift */; };
+		F9F542FB2AD86F110042047D /* ImportExportRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F542FA2AD86F110042047D /* ImportExportRow.swift */; };
+		F9F542FF2AD871800042047D /* SolvingMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F542FE2AD871800042047D /* SolvingMethods.swift */; };
+		F9F543012AD8757D0042047D /* CoeficientsInputEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F543002AD8757C0042047D /* CoeficientsInputEditor.swift */; };
+		F9F543032AD8764B0042047D /* Plotting.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F543022AD8764B0042047D /* Plotting.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		F999715D2AD1B299004B8C33 /* LinearEquationsSolverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinearEquationsSolverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F99971612AD1B299004B8C33 /* LinearEquationsSolverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearEquationsSolverUITests.swift; sourceTree = "<group>"; };
 		F99971632AD1B299004B8C33 /* LinearEquationsSolverUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearEquationsSolverUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F9F542FA2AD86F110042047D /* ImportExportRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportExportRow.swift; sourceTree = "<group>"; };
+		F9F542FE2AD871800042047D /* SolvingMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolvingMethods.swift; sourceTree = "<group>"; };
+		F9F543002AD8757C0042047D /* CoeficientsInputEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoeficientsInputEditor.swift; sourceTree = "<group>"; };
+		F9F543022AD8764B0042047D /* Plotting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plotting.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +106,10 @@
 				F99971482AD1B294004B8C33 /* ContentView.swift */,
 				F999714A2AD1B299004B8C33 /* Assets.xcassets */,
 				F999714C2AD1B299004B8C33 /* Preview Content */,
+				F9F542FA2AD86F110042047D /* ImportExportRow.swift */,
+				F9F542FE2AD871800042047D /* SolvingMethods.swift */,
+				F9F543002AD8757C0042047D /* CoeficientsInputEditor.swift */,
+				F9F543022AD8764B0042047D /* Plotting.swift */,
 			);
 			path = LinearEquationsSolver;
 			sourceTree = "<group>";
@@ -257,6 +269,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9F543032AD8764B0042047D /* Plotting.swift in Sources */,
+				F9F542FB2AD86F110042047D /* ImportExportRow.swift in Sources */,
+				F9F542FF2AD871800042047D /* SolvingMethods.swift in Sources */,
+				F9F543012AD8757D0042047D /* CoeficientsInputEditor.swift in Sources */,
 				F99971492AD1B294004B8C33 /* ContentView.swift in Sources */,
 				F99971472AD1B294004B8C33 /* LinearEquationsSolverApp.swift in Sources */,
 			);
